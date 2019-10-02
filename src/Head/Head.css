@@ -1,0 +1,36 @@
+.container {
+  height: 100%;
+}
+.Head-avatar {
+  margin: auto;
+  border-radius: 50%;
+  height: 100%;
+  border: 4px solid white;
+}
+
+.Head-header {
+  background-image: url("../asserts/software.jpg");
+  height: 300px;
+  padding: 20px;
+  border: 4px solid white;
+}
+.Head-contact {
+  position: absolute;
+  height: 10%;
+  margin: auto;
+  animation: transition 2s;
+}
+
+.title {
+  color: aliceblue;
+  height: 10%;
+}
+
+@keyframes transition {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 2%;
+  }
+}
